@@ -1,0 +1,50 @@
+trip
+1. TripId
+2. UserId
+3. Name
+4. Destination
+5. StartDate
+6. EndDate
+7. Activities
+"Activities": [
+  {
+    "ActivityName": "Visit Louvre Museum",
+    "Location": "Paris, France",
+    "Date": "2024-05-10"
+  },
+  {
+    "ActivityName": "Hiking in Yosemite National Park",
+    "Location": "Yosemite Valley Trail",
+    "Date": "2024-05-12",
+    "Time": "10:00 AM",
+    "Notes": "Bring plenty of water and sunscreen!"
+  }
+]
+8. Accomodation
+"Accommodations": [
+  {
+    "HotelName": "Grand View Hotel",
+    "Address": "123 Main Street, Paris, France",
+    "ConfirmationNumber": "ABC123",
+    "CheckInDate": "2024-05-08",
+    "CheckOutDate": "2024-05-11",
+    "Notes": "City view room requested."
+  }
+]
+
+9. Transportation
+"Transportation": [
+  {
+    "Type": "Flight",
+    "Itinerary": "SQ123 Singapore (SIN) to Paris (CDG)",
+    "DepartureDate": "2024-05-05",
+    "DepartureTime": "10:00 PM",
+    "ArrivalDate": "2024-05-06",
+    "ArrivalTime": "08:00 AM",
+    "ConfirmationNumber": "DEF456",
+    "Notes": "Window seat requested."
+  }
+]
+10. "Notes": "This trip is to celebrate John's birthday! We plan to visit the Louvre Museum and explore the Montmartre district."
+
+local development endpoint = http://127.0.0.1:4566
